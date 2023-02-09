@@ -48,7 +48,7 @@ Created a domain controller named DC-1 and a virtual Machine named Client-1 insi
 <img src="https://i.imgur.com/94G2AWy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Join Client-1 the created domain name for the domain controller DC-1. (mydomain.com)
+Join Client-1 to the created domain name for the domain controller DC-1. (mydomain.com)
 </p>
 <br />
 
