@@ -18,10 +18,13 @@
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+ Create a Domain controller (DC-!) running Windows Server22 and a Virtual Machine (Client1) running Windows 10 inside if Microsoft Azure.
+ 
+ Login to DC-1 and install Active Directory Domain Services.
+
+ Join Client=1 to created domain. (mydomain.com)
+
+ Open Powershell_ISE as an administrator. Create a new file and paste the contents of the employee name population script into it.Create a buncn of additional users   and attempt to login to Client-1 as one of the users.
 
 <h2>Deployment and Configuration Steps</h2>
 
