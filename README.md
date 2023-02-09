@@ -24,15 +24,15 @@
 
  Join Client=1 to created domain. (mydomain.com)
 
- Open Powershell_ISE as an administrator. Create a new file and paste the contents of the employee name population script into it.Create a buncn of additional users   and attempt to login to Client-1 as one of the users.
+ Open Powershell_ISE as an administrator. Create a new file and paste the contents of the employee name population script into it. Create a buncn of additional users   and attempt to login to Client-1 as one of the users.
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HBDt4Md.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Created a domain controller named DC-1 and a virtual Machine named Client-1 inside of a Micrsoft Azure resource group.
 </p>
 <br />
 
