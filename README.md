@@ -18,7 +18,7 @@
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
- Create a Domain controller (DC-1) running Windows Server22 and a Virtual Machine (Client1) running Windows 10 inside if Microsoft Azure.
+ Create a Domain controller (DC-1) running Windows Server22 and a Virtual Machine (Client-1) running Windows 10 inside if Microsoft Azure.
  
  Login to DC-1 and install Active Directory Domain Services.
 
