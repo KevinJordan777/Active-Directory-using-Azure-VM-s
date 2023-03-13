@@ -133,9 +133,15 @@ Normal domain users are granted permission to read and write in the "write-acces
 <br />
 
 <p>
-<img src="https://i.imgur.com/EQXNfOj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vamyV36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Attempt to login to Client-1 as one of the users. In this case, the user name chosen from the random list generated in Powershell_ISE in the previous section was Falojo.Kugori.
+Set the following permissions (share the folder) for the “Domain Users” group:
+
+Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write
+
+Normal domain users are not granted permission to access the "no-access" group at all.
+
+Only Domain Admin are allowed permission to access the "no access" group. 
 </p>
 <br />
