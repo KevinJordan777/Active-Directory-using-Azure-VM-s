@@ -107,10 +107,15 @@ Create a new file and paste the contents of the employee name population script 
 <br />
 
 <p>
-<img src="https://i.imgur.com/EQXNfOj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yy6bmz8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Attempt to login to Client-1 as one of the users. In this case, the user name chosen from the random list generated in Powershell_ISE in the previous section was Falojo.Kugori.
+ Set the following permissions (share the folder) for the “Domain Users” group: Folder:
+
+“read-access”, Group: “Domain Users”, Permission: “Read”
+
+Normal domain users are granted permission to only read from the "read-access" group.
+ 
 </p>
 <br />
 
