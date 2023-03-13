@@ -120,6 +120,19 @@ Normal domain users are granted permission to only read from the "read-access" g
 <br />
 
 <p>
+<img src="https://i.imgur.com/KqbRUVr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ Set the following permissions (share the folder) for the “Domain Users” group: Folder:
+
+Folder: “write-access”, Group: “Domain Users”, Permissions: “Read/Write”
+
+Normal domain users are granted permission to read and write in the "write-acces" group.
+ 
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/EQXNfOj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
