@@ -25,6 +25,18 @@
  Join Client-1 to the created domain. (mydomain.com)
 
  Open Powershell_ISE as an administrator. Create a new file and paste the contents of the employee name population script into it. Create a buncn of additional users   and attempt to login to Client-1 as one of the users.
+ 
+ Sharing out resources over the network by creating sample file shares with various permissions.
+
+Set the following permissions (share the folder) for the “Domain Users” group:
+
+Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
+
+Folder: “write-access”, Group: “Domain Users”, Permissions: “Read/Write”
+
+Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write
+
+Normal domain users are granted permission to only read from the "read-access" group, read and write in the "write-acces" group, and not access the "no-access" group at all. Admin only are allowed permission to access the "no access" group.
 
 <h2>Deployment and Configuration Steps</h2>
 
