@@ -32,9 +32,9 @@ Set the following permissions (share the folder) for the “Domain Users” grou
 
 Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
 
-Folder: “write-access”, Group: “Domain Users”, Permissions: “Read/Write”
+Folder: “write-access”, Group: “Domain Users”, Permission: “Read/Write”
 
-Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write
+Folder: “no-access”, Group: “Domain Admins”, “Permission: “Read/Write
 
 Normal domain users are granted permission to only read from the "read-access" group, read and write in the "write-acces" group, and not access the "no-access" group at all. Admin only are allowed permission to access the "no access" group.
 
